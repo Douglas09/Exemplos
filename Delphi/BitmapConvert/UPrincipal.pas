@@ -50,7 +50,7 @@ end;
 procedure TForm2.Button2Click(Sender: TObject);
 begin
   if (TBitmapConvert.toBMP(ImageControl1.Bitmap, ArquivoSalvar+ 'bmp', 100)) then
-     showMessage('Bitmap convertido para JPG com sucesso!')
+     showMessage('Bitmap convertido para BMP com sucesso!')
   else
      raise Exception.Create('Não foi possível converter a imagem.');
 end;
@@ -58,7 +58,7 @@ end;
 procedure TForm2.Button3Click(Sender: TObject);
 begin
   if (TBitmapConvert.toPNG(ImageControl1.Bitmap, ArquivoSalvar+ 'png', 100)) then
-     showMessage('Bitmap convertido para JPG com sucesso!')
+     showMessage('Bitmap convertido para PNG com sucesso!')
   else
      raise Exception.Create('Não foi possível converter a imagem.');
 end;
@@ -66,7 +66,7 @@ end;
 procedure TForm2.Button4Click(Sender: TObject);
 begin
   if (TBitmapConvert.toGIF(ImageControl1.Bitmap, ArquivoSalvar+ 'gif', 100)) then
-     showMessage('Bitmap convertido para JPG com sucesso!')
+     showMessage('Bitmap convertido para GIF com sucesso!')
   else
      raise Exception.Create('Não foi possível converter a imagem.');
 end;
