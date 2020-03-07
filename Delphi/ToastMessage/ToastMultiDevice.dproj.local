@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/11/19 07:55:51.000.238,=C:\Users\Doda_Colombo\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2019/11/26 15:54:52.000.406,=C:\Users\Doda_Colombo\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2019/11/26 15:56:25.000.136,=C:\Users\Doda_Colombo\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2019/11/26 15:56:43.000.748,=C:\Users\Doda_Colombo\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2020/02/10 10:14:18.000.811,=C:\Users\Doda_Colombo\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2020/02/10 10:21:45.000.362,=C:\Users\Doda_Colombo\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2020/02/10 10:54:22.000.066,=C:\Users\Doda_Colombo\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2020/03/07 12:53:35.400,=C:\Users\Doda_Colombo\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2020/03/07 12:53:56.229,C:\freeLancer\Exemplos\Delphi\ToastMessage\UPrincipal.fmx=C:\Users\Doda_Colombo\Documents\Embarcadero\Studio\Projects\Unit2.fmx</Transaction>
+    <Transaction>2020/03/07 12:53:56.229,C:\freeLancer\Exemplos\Delphi\ToastMessage\UPrincipal.pas=C:\Users\Doda_Colombo\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2020/03/07 12:54:13.857,C:\freeLancer\Exemplos\Delphi\ToastMessage\ToastMultiDevice.dproj=C:\Users\Doda_Colombo\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2020/03/07 12:55:21.299,=C:\freeLancer\Exemplos\Delphi\ToastMessage\ToastMessage.pas</Transaction>
+  </Transactions>  <ActiveMobileDevice>   <PIOS iOSSimulator="iPhone5"/>
+  </ActiveMobileDevice>
+</BorlandProject>
