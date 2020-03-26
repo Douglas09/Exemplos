@@ -8,13 +8,15 @@
     <Transaction>2020/02/10 10:14:18.000.811,=C:\Users\Doda_Colombo\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
     <Transaction>2020/02/10 10:21:45.000.362,=C:\Users\Doda_Colombo\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
     <Transaction>2020/02/10 10:54:22.000.066,=C:\Users\Doda_Colombo\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
-    <Transaction>2020/03/07 12:53:35.000.400,=C:\Users\Doda_Colombo\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
-    <Transaction>2020/03/07 12:53:56.000.229,C:\Users\Doda_Colombo\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\freeLancer\Exemplos\Delphi\ToastMessage\UPrincipal.pas</Transaction>
-    <Transaction>2020/03/07 12:53:56.000.229,C:\Users\Doda_Colombo\Documents\Embarcadero\Studio\Projects\Unit2.fmx=C:\freeLancer\Exemplos\Delphi\ToastMessage\UPrincipal.fmx</Transaction>
-    <Transaction>2020/03/07 12:54:13.000.857,C:\Users\Doda_Colombo\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\freeLancer\Exemplos\Delphi\ToastMessage\ToastMultiDevice.dproj</Transaction>
-    <Transaction>2020/03/07 12:55:21.000.299,=C:\freeLancer\Exemplos\Delphi\ToastMessage\ToastMessage.pas</Transaction>
+    <Transaction>2020/03/25 08:30:49.000.430,=C:\Users\Doda_Colombo\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2020/03/25 08:35:34.000.820,=C:\freeLancer\Exemplos\Delphi\PlayAudio\UAudioControl.pas</Transaction>
+    <Transaction>2020/03/25 08:35:36.000.337,=C:\freeLancer\Exemplos\Delphi\PlayAudio\uAudioVisualControl.pas</Transaction>
+    <Transaction>2020/03/25 10:12:20.000.112,C:\Users\Doda_Colombo\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\freeLancer\Exemplos\Delphi\PlayAudio\AudioPlay.pas</Transaction>
+    <Transaction>2020/03/25 10:12:20.000.112,C:\Users\Doda_Colombo\Documents\Embarcadero\Studio\Projects\Unit2.fmx=C:\freeLancer\Exemplos\Delphi\PlayAudio\AudioPlay.fmx</Transaction>
+    <Transaction>2020/03/25 10:34:23.000.458,C:\Users\Doda_Colombo\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\freeLancer\Exemplos\Delphi\PlayAudio\ExemploAudio.dproj</Transaction>
   </Transactions>
 	<ActiveMobileDevice>
 		<PIOS iOSSimulator="iPhone5"/>
+		<NoProfile Android="ce0616061aa8e33d04"/>
 	</ActiveMobileDevice>
 </BorlandProject>

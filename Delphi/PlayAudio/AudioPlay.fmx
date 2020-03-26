@@ -1,0 +1,107 @@
+object FrmPrincipal: TFrmPrincipal
+  Left = 0
+  Top = 0
+  BorderStyle = SizeToolWin
+  ClientHeight = 442
+  ClientWidth = 925
+  Fill.Color = xFFE2E2E2
+  Fill.Kind = Solid
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnClose = FormClose
+  DesignerMasterStyle = 3
+  object btnGravar: TButton
+    Align = MostTop
+    StyledSettings = [Family, FontColor]
+    Margins.Left = 4.000000000000000000
+    Margins.Top = 2.000000000000000000
+    Margins.Right = 4.000000000000000000
+    Margins.Bottom = 2.000000000000000000
+    Position.X = 4.000000000000000000
+    Position.Y = 2.000000000000000000
+    Size.Width = 917.000000000000000000
+    Size.Height = 100.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'GRAVAR E OUVIR'
+    TextSettings.Font.Size = 20.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    OnClick = btnGravarClick
+    object Text1: TText
+      Align = Bottom
+      Locked = True
+      HitTest = False
+      Position.Y = 80.000000000000000000
+      Size.Width = 917.000000000000000000
+      Size.Height = 20.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'EXIBINDO O COMPONENTE'
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claSeagreen
+    end
+  end
+  object btnOuvir2: TButton
+    Align = MostTop
+    StyledSettings = [Family, FontColor]
+    Margins.Left = 4.000000000000000000
+    Margins.Top = 2.000000000000000000
+    Margins.Right = 4.000000000000000000
+    Margins.Bottom = 2.000000000000000000
+    Position.X = 4.000000000000000000
+    Position.Y = 210.000000000000000000
+    Size.Width = 917.000000000000000000
+    Size.Height = 100.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Text = 'OUVIR '#193'UDIO EM 2'#186' PLANO'
+    TextSettings.Font.Size = 20.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.WordWrap = True
+    OnClick = btnOuvir2Click
+    object Text3: TText
+      Align = Bottom
+      Locked = True
+      HitTest = False
+      Position.Y = 80.000000000000000000
+      Size.Width = 917.000000000000000000
+      Size.Height = 20.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'N'#195'O EXIBE O COMPONENTE'
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claRed
+    end
+  end
+  object btnOuvir1: TButton
+    Align = MostTop
+    StyledSettings = [Family, FontColor]
+    Margins.Left = 4.000000000000000000
+    Margins.Top = 2.000000000000000000
+    Margins.Right = 4.000000000000000000
+    Margins.Bottom = 2.000000000000000000
+    Position.X = 4.000000000000000000
+    Position.Y = 106.000000000000000000
+    Size.Width = 917.000000000000000000
+    Size.Height = 100.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'SOMENTE OUVIR'
+    TextSettings.Font.Size = 20.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    OnClick = btnOuvir1Click
+    object Text2: TText
+      Align = Bottom
+      Locked = True
+      HitTest = False
+      Position.Y = 80.000000000000000000
+      Size.Width = 917.000000000000000000
+      Size.Height = 20.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'EXIBINDO O COMPONENTE'
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claSeagreen
+    end
+  end
+end
