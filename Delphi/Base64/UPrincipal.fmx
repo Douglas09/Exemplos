@@ -1,0 +1,253 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Base64 - Encode e Decode'
+  ClientHeight = 604
+  ClientWidth = 703
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnClose = FormClose
+  DesignerMasterStyle = 0
+  object Rectangle1: TRectangle
+    Align = Top
+    Size.Width = 703.000000000000000000
+    Size.Height = 290.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Thickness = 0.500000000000000000
+    object Rectangle3: TRectangle
+      Fill.Color = claRed
+      Position.X = 3.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 121.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      XRadius = 4.000000000000000000
+      YRadius = 4.000000000000000000
+      object Text2: TText
+        Align = Client
+        Size.Width = 121.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'DECODE'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claWhite
+      end
+    end
+    object Rectangle6: TRectangle
+      Anchors = [akLeft, akRight, akBottom]
+      Position.X = 8.000000000000000000
+      Position.Y = 245.000000000000000000
+      Size.Width = 689.000000000000000000
+      Size.Height = 35.000000000000000000
+      Size.PlatformDefault = False
+      object Text4: TText
+        Align = Left
+        AutoSize = True
+        Margins.Left = 2.000000000000000000
+        Position.X = 2.000000000000000000
+        Size.Width = 91.708656311035160000
+        Size.Height = 35.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'FILE EXPORT:'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.WordWrap = False
+        TextSettings.HorzAlign = Trailing
+      end
+      object edtDecode: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Client
+        TabOrder = 1
+        Margins.Left = 2.000000000000000000
+        Margins.Top = 4.000000000000000000
+        Margins.Right = 2.000000000000000000
+        Margins.Bottom = 4.000000000000000000
+        Size.Width = 507.291351318359400000
+        Size.Height = 27.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object btnDecode: TButton
+        Align = Right
+        StyledSettings = [Family, FontColor]
+        Margins.Left = 2.000000000000000000
+        Margins.Top = 3.000000000000000000
+        Margins.Right = 2.000000000000000000
+        Margins.Bottom = 3.000000000000000000
+        Position.X = 607.000000000000000000
+        Position.Y = 3.000000000000000000
+        Size.Width = 80.000000000000000000
+        Size.Height = 29.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        Text = 'Apply'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        OnClick = btnDecodeClick
+      end
+    end
+    object Rectangle5: TRectangle
+      Anchors = [akLeft, akTop, akRight]
+      Fill.Color = claWhite
+      Position.X = 8.000000000000000000
+      Position.Y = 32.000000000000000000
+      Size.Width = 689.000000000000000000
+      Size.Height = 205.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Thickness = 0.500000000000000000
+      XRadius = 12.000000000000000000
+      YRadius = 12.000000000000000000
+      object Text3: TText
+        Align = Top
+        Margins.Left = 14.000000000000000000
+        Margins.Right = 14.000000000000000000
+        Position.X = 14.000000000000000000
+        Size.Width = 661.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'BASE 64'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.HorzAlign = Leading
+      end
+      object memeDecode: TMemo
+        Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+        DataDetectorTypes = []
+        Align = Client
+        Margins.Left = 8.000000000000000000
+        Margins.Top = 2.000000000000000000
+        Margins.Right = 8.000000000000000000
+        Margins.Bottom = 2.000000000000000000
+        Size.Width = 673.000000000000000000
+        Size.Height = 176.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Viewport.Width = 669.000000000000000000
+        Viewport.Height = 172.000000000000000000
+      end
+    end
+  end
+  object Rectangle2: TRectangle
+    Align = MostBottom
+    Position.Y = 314.000000000000000000
+    Size.Width = 703.000000000000000000
+    Size.Height = 290.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Thickness = 0.540000021457672100
+    object Rectangle4: TRectangle
+      Fill.Color = claRed
+      Position.X = 3.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 121.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      XRadius = 4.000000000000000000
+      YRadius = 4.000000000000000000
+      object Text1: TText
+        Align = Client
+        Size.Width = 121.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'ENCODE'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claWhite
+      end
+    end
+    object Rectangle7: TRectangle
+      Anchors = [akLeft, akTop, akRight]
+      Position.X = 6.000000000000000000
+      Position.Y = 34.000000000000000000
+      Size.Width = 689.000000000000000000
+      Size.Height = 35.000000000000000000
+      Size.PlatformDefault = False
+      object Text5: TText
+        Align = Left
+        AutoSize = True
+        Margins.Left = 2.000000000000000000
+        Position.X = 2.000000000000000000
+        Size.Width = 92.638343811035160000
+        Size.Height = 35.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'FILE IMPORT:'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.WordWrap = False
+        TextSettings.HorzAlign = Trailing
+      end
+      object edtEncode: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Client
+        TabOrder = 1
+        Margins.Left = 2.000000000000000000
+        Margins.Top = 4.000000000000000000
+        Margins.Right = 2.000000000000000000
+        Margins.Bottom = 4.000000000000000000
+        Size.Width = 506.361663818359400000
+        Size.Height = 27.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object btnEncode: TButton
+        Align = Right
+        StyledSettings = [Family, FontColor]
+        Margins.Left = 2.000000000000000000
+        Margins.Top = 3.000000000000000000
+        Margins.Right = 2.000000000000000000
+        Margins.Bottom = 3.000000000000000000
+        Position.X = 607.000000000000000000
+        Position.Y = 3.000000000000000000
+        Size.Width = 80.000000000000000000
+        Size.Height = 29.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        Text = 'Apply'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        OnClick = btnEncodeClick
+      end
+    end
+    object Rectangle8: TRectangle
+      Anchors = [akLeft, akTop, akRight]
+      Fill.Color = claWhite
+      Position.X = 6.000000000000000000
+      Position.Y = 76.000000000000000000
+      Size.Width = 689.000000000000000000
+      Size.Height = 205.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Thickness = 0.500000000000000000
+      XRadius = 12.000000000000000000
+      YRadius = 12.000000000000000000
+      object Text6: TText
+        Align = Top
+        Margins.Left = 14.000000000000000000
+        Margins.Right = 14.000000000000000000
+        Position.X = 14.000000000000000000
+        Size.Width = 661.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'BASE 64'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.HorzAlign = Leading
+      end
+      object memEncode: TMemo
+        Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+        DataDetectorTypes = []
+        Align = Client
+        Margins.Left = 8.000000000000000000
+        Margins.Top = 2.000000000000000000
+        Margins.Right = 8.000000000000000000
+        Margins.Bottom = 2.000000000000000000
+        Size.Width = 673.000000000000000000
+        Size.Height = 176.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Viewport.Width = 669.000000000000000000
+        Viewport.Height = 172.000000000000000000
+      end
+    end
+  end
+end

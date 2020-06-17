@@ -1,0 +1,321 @@
+object FrmPrincipal: TFrmPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'Form3'
+  ClientHeight = 681
+  ClientWidth = 331
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object VertScrollBox1: TVertScrollBox
+    Align = Client
+    Size.Width = 331.000000000000000000
+    Size.Height = 681.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Viewport.Width = 331.000000000000000000
+    Viewport.Height = 681.000000000000000000
+    object Layout1: TLayout
+      Align = Top
+      Position.Y = 161.000000000000000000
+      Size.Width = 331.000000000000000000
+      Size.Height = 66.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 5
+      object Text1: TText
+        Align = Top
+        Size.Width = 331.000000000000000000
+        Size.Height = 20.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'CPF'
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      object edtCPF: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Top
+        TabOrder = 1
+        ReadOnly = True
+        TextSettings.HorzAlign = Center
+        Position.Y = 20.000000000000000000
+        Size.Width = 331.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        OnClick = edtCPFClick
+      end
+    end
+    object Layout2: TLayout
+      Align = Top
+      Position.Y = 491.000000000000000000
+      Size.Width = 331.000000000000000000
+      Size.Height = 66.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      object Text2: TText
+        Align = Top
+        Size.Width = 331.000000000000000000
+        Size.Height = 20.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'VALOR INTEIRO'
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      object edtInteger: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Top
+        TabOrder = 1
+        ReadOnly = True
+        TextSettings.HorzAlign = Center
+        Position.Y = 20.000000000000000000
+        Size.Width = 331.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        OnClick = edtIntegerClick
+      end
+    end
+    object Layout4: TLayout
+      Align = Top
+      Position.Y = 359.000000000000000000
+      Size.Width = 331.000000000000000000
+      Size.Height = 66.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      object Text4: TText
+        Align = Top
+        Size.Width = 331.000000000000000000
+        Size.Height = 20.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'CELULAR'
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      object edtCelular: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Top
+        TabOrder = 1
+        ReadOnly = True
+        TextSettings.HorzAlign = Center
+        Position.Y = 20.000000000000000000
+        Size.Width = 331.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        OnClick = edtCelularClick
+      end
+    end
+    object Layout5: TLayout
+      Align = Top
+      Position.Y = 293.000000000000000000
+      Size.Width = 331.000000000000000000
+      Size.Height = 66.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object Text5: TText
+        Align = Top
+        Size.Width = 331.000000000000000000
+        Size.Height = 20.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'TELEFONE'
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      object edtTelefone: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Top
+        TabOrder = 1
+        ReadOnly = True
+        TextSettings.HorzAlign = Center
+        Position.Y = 20.000000000000000000
+        Size.Width = 331.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        OnClick = edtTelefoneClick
+      end
+    end
+    object Layout6: TLayout
+      Align = Top
+      Position.Y = 227.000000000000000000
+      Size.Width = 331.000000000000000000
+      Size.Height = 66.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object Text6: TText
+        Align = Top
+        Size.Width = 331.000000000000000000
+        Size.Height = 20.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'CNPJ'
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      object edtCNPJ: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Top
+        TabOrder = 1
+        ReadOnly = True
+        TextSettings.HorzAlign = Center
+        Position.Y = 20.000000000000000000
+        Size.Width = 331.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        OnClick = edtCNPJClick
+      end
+    end
+    object Layout7: TLayout
+      Align = MostTop
+      Size.Width = 331.000000000000000000
+      Size.Height = 161.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 6
+      object Layout3: TLayout
+        Align = Top
+        Position.Y = 66.000000000000000000
+        Size.Width = 331.000000000000000000
+        Size.Height = 66.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object Text3: TText
+          Align = Top
+          Size.Width = 331.000000000000000000
+          Size.Height = 20.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'N'#218'MERO DECIMAL'
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+        object edtDecimal: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Top
+          TabOrder = 1
+          ReadOnly = True
+          TextSettings.HorzAlign = Center
+          Position.Y = 20.000000000000000000
+          Size.Width = 331.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          OnClick = edtDecimalClick
+        end
+      end
+      object Layout8: TLayout
+        Align = MostTop
+        Size.Width = 331.000000000000000000
+        Size.Height = 66.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Text7: TText
+          Align = Top
+          Size.Width = 331.000000000000000000
+          Size.Height = 20.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'CASAS DECIMAL (X,XXXX)'
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+        object edtCasasDecimais: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Center
+          TabOrder = 0
+          ReadOnly = True
+          Text = '2'
+          TextSettings.HorzAlign = Center
+          Size.Width = 100.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Button1: TButton
+          Tag = 1
+          Align = Right
+          StyledSettings = [Family]
+          Margins.Right = 15.000000000000000000
+          Position.X = 270.000000000000000000
+          Position.Y = 20.000000000000000000
+          Size.Width = 46.000000000000000000
+          Size.Height = 46.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          Text = '+'
+          TextSettings.Font.Size = 26.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TintColor = claGreen
+          OnClick = Button1Click
+        end
+        object Button2: TButton
+          Tag = -1
+          Align = Left
+          StyledSettings = [Family]
+          Margins.Left = 15.000000000000000000
+          Position.X = 15.000000000000000000
+          Position.Y = 20.000000000000000000
+          Size.Width = 46.000000000000000000
+          Size.Height = 46.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          Text = '-'
+          TextSettings.Font.Size = 26.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TintColor = claRed
+          OnClick = Button1Click
+        end
+      end
+    end
+    object Layout9: TLayout
+      Align = Top
+      Position.Y = 425.000000000000000000
+      Size.Width = 331.000000000000000000
+      Size.Height = 66.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      object Text8: TText
+        Align = Top
+        Size.Width = 331.000000000000000000
+        Size.Height = 20.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'DATA'
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      object edtData: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Top
+        TabOrder = 1
+        ReadOnly = True
+        TextSettings.HorzAlign = Center
+        Position.Y = 20.000000000000000000
+        Size.Width = 331.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        KillFocusByReturn = True
+        OnClick = edtDataClick
+      end
+    end
+    object Layout10: TLayout
+      Align = Top
+      Position.Y = 557.000000000000000000
+      Size.Width = 331.000000000000000000
+      Size.Height = 120.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 7
+      object Layout11: TLayout
+        Align = Top
+        Size.Width = 331.000000000000000000
+        Size.Height = 66.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 4
+        object Text9: TText
+          Align = Top
+          Size.Width = 331.000000000000000000
+          Size.Height = 20.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'CEP'
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+        object edtCep: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Top
+          TabOrder = 1
+          ReadOnly = True
+          TextSettings.HorzAlign = Center
+          Position.Y = 20.000000000000000000
+          Size.Width = 331.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          OnClick = edtCepClick
+        end
+      end
+    end
+  end
+end
